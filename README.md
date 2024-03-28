@@ -8,5 +8,5 @@ Utilizing the power of data analytics, our platform analyzes various factors inc
 - Uses a Random Forest classifier trained on a dataset of crop parameters.
 - Provides easy-to-use interface for farmers to make informed decisions.
 
-  Web App Link : https://crop-recommn.streamlit.app/
+### Web App Link : https://crop-recommn.streamlit.app/
   
