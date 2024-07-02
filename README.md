@@ -28,9 +28,20 @@ The Crop Recommendation System is a machine learning-based web application desig
 
 The system architecture comprises two main components: the web server and the ML container. The web server communicates with a SQL database to store and retrieve data, ensuring scalability and deployability for handling many requests.
 
+| System Architecture |
+|---------------------|
+| ![image](https://github.com/ravikant-diwakar/Crop-Recommendation/assets/110620635/2fbb5654-19fb-438c-9cf5-4c6328f44fa7) |
+
+
 ### Datasets
 
 The dataset consists of 2200 rows and 8 columns representing various environmental and soil parameters, including nitrogen, phosphorus, potassium (NPK) levels, temperature, humidity, pH, precipitation, and the target crop label. By analyzing the relationships between these input features and the corresponding crop types, we develop a predictive model for recommending suitable crops for specific soil and environmental conditions.
+
+
+| Random data from the dataset for crop recommendation |
+|------------------------------------------------------|
+| ![image](https://github.com/ravikant-diwakar/Crop-Recommendation/assets/110620635/228e1251-7033-461f-9b4d-8fca493482d9) |
+
 
 ### Crop Recommendation
 
@@ -50,17 +61,21 @@ We trained our dataset using four standard machine learning algorithms: Random F
 
 Random Forest outperformed other algorithms, achieving an accuracy of 99.55%. A graphical representation of the accuracy comparison among the algorithms is provided.
 
+| Accuracy Comparison |
+|---------------------|
+| ![image](https://github.com/ravikant-diwakar/Crop-Recommendation/assets/110620635/d1f0c9f0-35cd-4898-9749-e689f9a8d3ec) |
+
+
 ### Website Deployment
 
 The web application, developed using Streamlit, incorporates a machine learning backend for crop recommendation based on user-input parameters. The application is designed for deployment on cloud service platforms, ensuring widespread accessibility and scalability.
 
-## Future Scope
+| Landing page of the website |
+|-----------------------------|
+| ![image](https://github.com/ravikant-diwakar/Crop-Recommendation/assets/110620635/b2fc8288-6800-4eeb-8ca7-76c40b6424ba) |
 
-Future improvements include using additional data sources such as satellite images, drone data, and ground sensors to enhance prediction accuracy. Developing specialized ML models for different agricultural regions and ensuring easy accessibility for all users are key areas for further development.
+| Result of crop recommendation |
+|-----------------------------|
+| ![image](https://github.com/ravikant-diwakar/Crop-Recommendation/assets/110620635/1f5cb278-9898-4cf8-98d2-2d8dc96336e7) |
 
-## Conclusion
-
-Our Crop Recommendation System demonstrates the potential of machine learning in transforming agriculture. By providing farmers with accurate crop yield predictions and insightful advice, we aim to promote sustainable and efficient farming practices. Integrating ML into crop recommendation systems can lead to better resource utilization, reduced environmental impact, and improved living conditions for farmers. This project represents a significant step towards a sustainable and successful agricultural future driven by data-driven insights.
-
-### Web App Link : https://crop-recommn.streamlit.app/
-  
+---
