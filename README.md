@@ -26,7 +26,7 @@ The Crop Recommendation System is a machine learning-based web application desig
 
 ### System Architecture
 
-The system architecture comprises two main components: the web server and the ML container. The web server communicates with a SQL database to store and retrieve data, ensuring scalability and deployability for handling many requests.
+The system architecture comprises two main components: the web server and the ML container. The web server communicates with a database to store and retrieve data, ensuring scalability and deployability for handling many requests.
 
 | System Architecture |
 |---------------------|
